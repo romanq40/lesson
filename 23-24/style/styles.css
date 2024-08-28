@@ -1,0 +1,36 @@
+#add-block-btn{
+    margin-top: 30px;
+    padding: 10px 16px;
+    border: 3px solid #000000;
+
+    background-color: #ff0000;
+
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+
+    cursor: pointer;
+}
+
+#add-block-btn:hover {
+    background-color: #aa4c4c;
+    color: #000000;
+}
+
+#block-container {
+    margin-top: 20px;
+    padding: 0 10px 10px 0;
+    border: 3px solid #000000;
+
+    width: 100px;
+    min-height: 100px;
+
+    display: flex;
+}
+
+.block{
+    margin: 10px 0 0 10px;
+
+    width: 100px;
+    height: 100px;
+}
